@@ -203,7 +203,6 @@ namespace Emby.Server.Implementations.MediaEncoder
             }
 
             var success = true;
-            var changesMade = false;  // Note: Dummy chapter creation is now handled in ChapterManager
 
             var runtimeTicks = video.RunTimeTicks ?? 0;
 
